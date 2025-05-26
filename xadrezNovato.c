@@ -28,7 +28,7 @@ int main() {
     // Movimentação da Torre
     printf ("Será realizada a movimentaçao da Torre\n");
     while (i <= movTorre) {
-        printf("Direita");
+        printf("Direita\n");
         i++;
     }
     printf("A Torre se moveu para a direita %d vezes\n", movTorre);
@@ -36,12 +36,12 @@ int main() {
     i = 1; // Resetando o contador para a próxima movimentação
     
     // Movimentação do Bispo
-   prinff("Será realizada a movimentaçao do Bispo\n");
+   printf("Será realizada a movimentaçao do Bispo\n");
     do {
     printf ("Direita Cima\n");
         i++;
    }
-    while (i <= movBispo)
+    while (i <= movBispo);
     printf("O Bispo se moveu %d vezes na diagonal Direita e Cima\n", movBispo);
 
     i = 1; // Resetando o contador para a próxima movimentação
